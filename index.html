@@ -8,6 +8,72 @@
     <title>Pricing Page</title>
 </head>
 <body>
-    
+    <div class="plan">
+        <p class="plan-title">Your current plan:</p>
+        <p class="trial-type">Starter Trial • 500MAUs</p>
+    </div>
+    <input type="checkbox" id="plan-type">
+    <div class="choose-plan">
+        <p class="choose-plan-title">Choose a plan</p>
+        <div class="plan-type">
+            <p>Billed monthly</p>
+            <div class="slide-checkbox-component">
+                <label for="plan-type" class="slide-checkbox"></label>
+            </div>
+            <p>Billed yearly</p>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card-1 card">
+            <p class="card-1-title">Starter</p>
+            <p class="card-1-price" data-monthly-price="$19"
+            data-yearly-price="$228"></p>
+            <ul class="card-list">
+                <li>500 MAUs</li>
+                <li>3 projects</li>
+                <li>Unlimited guides</li>
+                <li>Unlimited flows</li>
+                <li>Unlimited branded themes</li>
+                <li>Email support</li>
+            </ul>
+            <button class="card-1-btn">Choose Plan</button>
+        </div>
+        <div class="card-2 card">
+            <p class="card-2-title">Pro</p>
+            <div class="card-price-group">
+                <p class="card-2-price" 
+                    data-monthly-price="$99"
+                    data-yearly-price="$1188"></p>
+                <p class="card-2-month" data-yearly-text="year" data-monthly-text="month">/ </p>
+            </div>
+            <div class="selectbox-group">
+                <select class="card-2-selectbox" name="" id="">
+                    <option value="2500 MAUs">2500 MAUs</option>
+                    <option value="2000 MAUs">2000 MAUs</option>
+                    <option value="1500 MAUs">1500 MAUs</option>
+                </select>
+                <p class="active-users">Monthly active users</p>
+            </div>
+            <ul class="card-list">
+                <li>All starter features, plus:</li>
+                <li>Unlimited projects</li>
+                <li>Unlimited fully customizable themes</li>
+                <li>A dedicated Customer Success Manager</li>
+            </ul>
+            <button class="card-2-btn">Choose Plan</button>
+        </div>
+        <div class="card-3 card">
+            <p class="card-3-title">Enterprise</p>
+            <p class="card-3-price">Let’s Talk!</p>
+            <ul class="card-list">
+                <li>All Pro features</li>
+                <li>Unlimited MAUs</li>
+                <li>Dedicated environment</li>
+                <li>Enterprise account administration</li>
+                <li>Premium support and services</li>
+            </ul>
+            <button class="card-3-btn">Contact Us</button>
+        </div>
+    </div>
 </body>
 </html>
